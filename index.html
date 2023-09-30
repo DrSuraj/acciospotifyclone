@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <link rel="stylesheet" href="./style-2.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+</head>
+<body>
+    <div class="container">
+        <div class="sidebars">
+          <img
+            id="logo"
+            src="./media/Spotify_Logo_RGB_Black.png"
+            alt="spotify-logo"
+          />
+          <!-- Sidebar - 1 -->
+          <div class="topicon sidedivs">
+            <div class="linkflex">
+              <img src="./media/home.svg" alt="Home" />
+              <a href="#">Home</a>
+            </div>
+            <div class="linkflex">
+              <img src="./media/searchh.svg" alt="Search" />
+              <a href="#">Search</a>
+            </div>
+            <div class="linkflex">
+              <img src="./media/library.svg" alt="Library" />
+              <a href="#">Library</a>
+            </div>
+          </div>
+             <!-- Sidebar - 2 -->
+             <div class="album sidedivs" id="album-playlist">
+                <p>Playlists</p>
+                <div class="linkflex">
+                  <img src="./media/plus.png" alt="" />
+                  <a href="#">Create Playlist</a>
+                </div>
+                <div class="linkflex">
+                  <img src="./media/purpleheart.png" alt="purpleheart" />
+                  <a href="#">Liked Songs</a>
+                </div>
+                <div class="linkflex">
+                  <img src="./media/hotspot.png" alt="hotspot" />
+                  <a href="#">Your Episodes</a>
+                </div>
+              </div>
+              <img id="albumart-playlist" src="./media/album art.png"alt="album-art">
+        </div>
+        <div class="mainarea-playlist bg.ldark">
+            <div class="top-one">
+              <div class="genre-img">
+                <img src="./media/pop-rn.png" alt="Genre-Playlist">
+              </div>
+              <div class="genre-text">
+                <p>Playlist</p>
+                <h1>Pop Right Now</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, dicta.</p>
+                <div class="genre-foot">
+                    <div class="spoti">Spotify</div>
+                    <svg class="genre-short-text" xmlns="http://www.w3.org/2000/svg" width="4" height="4" viewbox="0 0 4 4" fill="none">
+                        <circle opacity="0.7" cx="2" cy="2" r="2" fill="white"/>
+                    </svg>
+                    <div class="likes genre-short-text">860,305 likes</div>
+                    <svg class="genre-short-text" xmlns="http://www.w3.org/2000/svg" width="4" height="4" viewbox="0 0 4 4" fill="none">
+                        <circle opacity="0.7" cx="2" cy="2" r="2" fill="white"/>
+                    </svg>
+                    <div class="genre-info genre-short-text">100 songs, 5 hr 5 min</div>
+                </div>
+              </div>
+            </div>
+            <div class="top-second">
+                <div class="btns">
+                    <img id="pl-btns" src="./media/play.png" alt="Play">
+                    <img src="./media/heart.png" alt="Like-Playlist">
+                    <img src="./media/three-dot.png" alt="More-Options">
+                </div>
+            </div>
+            <div class="top-third">
+                <div class="bor"></div>
+                <div class="table-heads">
+                    <div class="heads-text">
+                        #  Title
+                    </div>
+                    <div class="heads-text">
+                        ALBUM
+                    </div>
+                    <div class="heads-text">
+                        DATE ADDED
+                    </div>
+                    <div class="heads-text">
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="table-wrapper">
+                <table class="custom-table">
+                  <tr>
+                    <td>
+                        <p>1</p>
+                        <img src="./media/Rectangle 9.png" alt="SongImage">
+                        <div class="songdetails">
+                            <div class="songname">We're Good</div>
+                            <div class="author">Dua Lipa</div>
+                        </div>
+                    </td>
+                    <td>Future Nostalgia (The Moonlight Edition)</td>
+                    <td>04-07-2023</td>
+                    <td>
+                        <div class="moreMenu">
+                            <img src="./media/heart.png" alt="LikeSong">
+                            <p>2:45</p>
+                            <img src="./media/three-dot.png" alt="More-Options">
+                        </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                        <p>2</p>
+                        <img src="./media/list img.png" alt="SongImage">
+                        <div class="songdetails">
+                            <div class="songname">We're Good</div>
+                            <div class="author">Dua Lipa</div>
+                        </div>
+                    </td>
+                    <td>Future Nostalgia (The Moonlight Edition)</td>
+                    <td>04-07-2023</td>
+                    <td>
+                        <div class="moreMenu">
+                            <img src="./media/heart.png" alt="LikeSong">
+                            <p>2:45</p>
+                            <img src="./media/three-dot.png" alt="More-Options">
+                        </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                        <p>1</p>
+                        <img src="./media/list img.png" alt="SongImage">
+                        <div class="songdetails">
+                            <div class="songname">We're Good</div>
+                            <div class="author">Dua Lipa</div>
+                        </div>
+                    </td>
+                    <td>Future Nostalgia (The Moonlight Edition)</td>
+                    <td>04-07-2023</td>
+                    <td>
+                        <div class="moreMenu">
+                            <img src="./media/heart.png" alt="LikeSong">
+                            <p>2:45</p>
+                            <img src="./media/three-dot.png" alt="More-Options">
+                        </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                        <p>1</p>
+                        <img src="./media/list img.png" alt="SongImage">
+                        <div class="songdetails">
+                            <div class="songname">We're Good</div>
+                            <div class="author">Dua Lipa</div>
+                        </div>
+                    </td>
+                    <td>Future Nostalgia (The Moonlight Edition)</td>
+                    <td>04-07-2023</td>
+                    <td>
+                        <div class="moreMenu">
+                            <img src="./media/heart.png" alt="LikeSong">
+                            <p>2:45</p>
+                            <img src="./media/three-dot.png" alt="More-Options">
+                        </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                        <p>1</p>
+                        <img src="./media/list img.png" alt="SongImage">
+                        <div class="songdetails">
+                            <div class="songname">We're Good</div>
+                            <div class="author">Dua Lipa</div>
+                        </div>
+                    </td>
+                    <td>Future Nostalgia (The Moonlight Edition)</td>
+                    <td>04-07-2023</td>
+                    <td>
+                        <div class="moreMenu">
+                            <img src="./media/heart.png" alt="LikeSong">
+                            <p>2:45</p>
+                            <img src="./media/three-dot.png" alt="More-Options">
+                        </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                        <p>1</p>
+                        <img src="./media/list img.png" alt="SongImage">
+                        <div class="songdetails">
+                            <div class="songname">We're Good</div>
+                            <div class="author">Dua Lipa</div>
+                        </div>
+                    </td>
+                    <td>Future Nostalgia (The Moonlight Edition)</td>
+                    <td>04-07-2023</td>
+                    <td>
+                        <div class="moreMenu">
+                            <img src="./media/heart.png" alt="LikeSong">
+                            <p>2:45</p>
+                            <img src="./media/three-dot.png" alt="More-Options">
+                        </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                        <p>1</p>
+                        <img src="./media/list img.png" alt="SongImage">
+                        <div class="songdetails">
+                            <div class="songname">We're Good</div>
+                            <div class="author">Dua Lipa</div>
+                        </div>
+                    </td>
+                    <td>Future Nostalgia (The Moonlight Edition)</td>
+                    <td>04-07-2023</td>
+                    <td>
+                        <div class="moreMenu">
+                            <img src="./media/heart.png" alt="LikeSong">
+                            <p>2:45</p>
+                            <img src="./media/three-dot.png" alt="More-Options">
+                        </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                        <p>1</p>
+                        <img src="./media/list img.png" alt="SongImage">
+                        <div class="songdetails">
+                            <div class="songname">We're Good</div>
+                            <div class="author">Dua Lipa</div>
+                        </div>
+                    </td>
+                    <td>Future Nostalgia (The Moonlight Edition)</td>
+                    <td>04-07-2023</td>
+                    <td>
+                        <div class="moreMenu">
+                            <img src="./media/heart.png" alt="LikeSong">
+                            <p>2:45</p>
+                            <img src="./media/three-dot.png" alt="More-Options">
+                        </div>
+                    </td>
+                  </tr>
+                  
+                  <!-- Add more rows as needed -->
+                </table>
+              </div>
+              
+        </div>
+        <div class="foot-playlist">
+            <div class="player-playlist">
+                <div class="playerleft-playlist">
+                    <img src="./media/Rectangle 9.png"
+                        alt="Played Song">
+                    <div class="playedtext-playlist">
+                        <div class="textonly-playlist">
+                            <p>Dreaming On</p>
+                            <p id="singer">NEFFEX</p>
+                        </div>
+                        <img src="./media/heart.png"
+                            alt="Liked">
+                        <img src="./media/pip.png" alt="Picture-in-Picture">
+                    </div>
+                </div>
+                <div class="playermid-playlist">
+                    <div class="midup-playlist">
+                        <img src="./media/shuffle.png"
+                            alt="shuffle">
+                        <img src="./media/previous.png"
+                            alt="previous">
+                        <img src="./media/gridicons_play.png"
+                            alt="play">
+                        <img src="./media/next.png"
+                            alt="next">
+                        <img src="./media/loop.png" alt="loop">
+                    </div>
+                    <div class="middown-playlist">
+                        <p>2:11</p>
+                        <input type="range" id="musicid" name="music" min="0" max="100" value="80">
+                        <p>2:42</p>
+                    </div>
+                </div>
+                <div class="playerright-playlist">
+                    <img class="rytmic" src="./media/microphone.png"
+                        alt="microphone">
+                    <img class="rytmic" src="./media/query-queue.png"
+                        alt="query-queue">
+                    <img class="rytmic" src="./media/carbon_laptop.png"
+                        alt="carbon_laptop">
+                    <img class="rytmic" src="./media/speaker-white.png"
+                        alt="speaker-white">
+                    <input type="range" id="volumid" name="volume" min="0" max="100" value="80">
+                </div>
+            </div>
+        </div>
+</main>
+
+</body>
+
+</html>
